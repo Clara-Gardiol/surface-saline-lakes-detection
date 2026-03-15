@@ -10,9 +10,9 @@
 
 **Research internship** at Ruđer Bošković Institute in Split, Croatia (April - August 2024)
 
-Division for Marine and Environmental Research
-
 **Supervisors:** Elena Terzić, Ivica Vilibić
+
+Division for Marine and Environmental Research
 
 ## Table of Contents
 
@@ -66,6 +66,4 @@ This work was carried out at the Ruđer Bošković Institute (Split, Croatia) wi
 
 ## Contact
 Clara Gardiol - clara.gardiol@hotmail.fr
-
-Project Link: 
 
