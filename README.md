@@ -10,9 +10,9 @@
 
 **Research internship** at Ruđer Bošković Institute in Split, Croatia (April - August 2024)
 
-**Supervisors:** Elena Terzić, Ivica Vilibić
-
 Division for Marine and Environmental Research
+
+**Supervisors:** Elena Terzić, Ivica Vilibić
 
 ## Table of Contents
 
