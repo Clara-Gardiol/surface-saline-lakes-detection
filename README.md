@@ -23,6 +23,7 @@ Division for Marine and Environmental Research
 To document trends, variability, and spatial extent of "Surface Saline Lakes" (SSLs) using Argo profiling float data in the Mediterranean Sea.
 
 SSLs are highly seasonal phenomena characterized by a near-surface salinity maximum overlying the pycnocline. They form in regions of low precipitation, high evaporation, and limited freshwater input, where weak winter wind mixing allows salt to accumulate near the surface.
+
 Originally documented exclusively in the Levantine Basin, SSLs were subsequently observed in the Adriatic Sea following an isolated occurrence in 2017.
 
 ## Methods 
@@ -30,10 +31,7 @@ Originally documented exclusively in the Levantine Basin, SSLs were subsequently
 ### Task 1. Argo data preparation
 - Collection and preprocessing of Argo profiling float data in the Mediterranean sea
 - Development of detection methodology for surface saline lakes
-- Calculation of descriptive variables:
-  - Halocline/thermocline intensity
-  - Lake thickness
-  - Lake stability (Schmidt stability Index)
+- Calculation of descriptive variables (halocline/thermocline intensity, lake thickness, lake stability using Schmidt stability Index)
 
 ### Task 2. Surface saline lakes detection and characterization
 Detection and documentation of surface saline lakes with the following variables:
@@ -46,6 +44,7 @@ Detection and documentation of surface saline lakes with the following variables
 ## Data
 **Source:** Argo profiling floats
 **Region:** Mediterranean Sea  
+
 **Period:** 2000 - 2024
 
 ## Tools
@@ -57,5 +56,6 @@ This work contributed to the following publication:
 
 ## Contact
 Clara Gardiol - clara.gardiol@hotmail.fr
+
 Project Link: 
 
