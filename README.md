@@ -5,7 +5,7 @@
 ## Context
 
 **Research internship** at Ruđer Bošković Institute in Split, Croatia (April - August 2024)
-Division for Marine and Environmental Research
+Division for Marine and Environmental Research  
 **Supervisors:** Elena Terzić, Ivica Vilibić
 
 ## Table of Contents
@@ -19,7 +19,7 @@ To document trends, variability and spatial outreach of “surface saline lakes�
 
 ## Methods 
 
-### Task 1 : Argo data preparation
+### Task 1. Argo data preparation
 - Collection and preprocessing of Argo profiling float data in the Mediterranean sea
 - Development of detection methodology for surface saline lakes
 - Calculation of descriptive variables:
