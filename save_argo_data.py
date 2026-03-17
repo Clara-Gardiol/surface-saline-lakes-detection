@@ -30,7 +30,6 @@ ArgoSet.plot('trajectory')
 plt.savefig(os.path.join(directory, 'Argo_trajectories.png'), dpi=300)
 ds = ArgoSet.data
 
-
 # Add TEOS-10 variables - potential density anomaly
 # https://github.com/euroargodev/argopy/blob/0372f38fa8285b98dd4a7bfd908ce88d9e6fa7f4/argopy/xarray.py#L1386 
 
