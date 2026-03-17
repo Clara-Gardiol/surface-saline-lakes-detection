@@ -53,6 +53,8 @@ Run the scripts in the following order:
 
 3. `save_SSL_variables_Mediterranean_sea.py` — Filters out Black Sea data. Outputs `SSLs_variables_Mediterranean_sea.csv`.
 
+The final dataset `SSLs_variables_Mediterranean_sea.csv` is available in this repository.
+
 ## Methods 
 
 ### 1. Argo data preparation ('save_argo_data.py')
