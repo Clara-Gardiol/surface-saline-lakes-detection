@@ -55,6 +55,7 @@ Detection and documentation of surface saline lakes with the following variables
 
 ## Tools
 Python libraries: `argopy`, `pandas`, `xarray`, `numpy`, `matplotlib`, `cartopy`, `gsw`, `os`
+Python scripts were written in 2024 and may require older versions of the dependencies to run.
 
 ## Associated Publication
 This work contributed to the following publication:
