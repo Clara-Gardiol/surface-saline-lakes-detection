@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-# cgardiol 10.06.2024 
 # Use argopy to download the argo float data
 # Note: this script was written in 2024 and may not run with newer versions of argopy/numpy
 
