@@ -34,18 +34,42 @@ Originally documented exclusively in the Levantine Basin, SSLs were subsequently
 
 ## Methods 
 
-### Task 1. Argo data preparation
-- Collection and preprocessing of Argo profiling float data in the Mediterranean Sea
-- Development of detection methodology for surface saline lakes
-- Calculation of descriptive variables (halocline/thermocline intensity, lake thickness, lake stability using Schmidt stability Index)
+### 1. Argo data preparation ('save_argo_data.py')
+Collection and preprocessing of Argo profiling float data in the Mediterranean Sea (including Black sea data) using `argopy`.
 
-### Task 2. Surface saline lakes detection and characterization
-Detection and documentation of surface saline lakes with the following variables:
-- Location (longitude, latitude)
-- Halocline intensity
-- Thermocline intensity
-- Lake depth
-- Lake stability (Schmidt stability)
+TEOS-10 variables are computed for each profile: Potential Density Anomaly (SIG0) and Potential Temperature (PTEMP).
+
+### 2. Surface saline lakes detection and characterization ('SSLs_detection.py')
+Detection and documentation of surface saline lakes.
+For each Argo float profile, the following gradients are computed:
+- **SG** : Salinity gradient (ppt/m)
+- **TG** : Temperature gradient (°C/m)
+- **PDAG** : Potential Density Anomaly gradient (kg/m³/m)
+
+A profile is flagged as a SSL if the following 3 conditions are met:
+- **Condition n°1** : Salinity gradient SG < -0.01 ppt/m
+- **Condition n°2** : Salinity gradients above must not exceed 0.02 ppt/m
+- **Condition n°3** : Surface salinity must be higher than salinity at the base of the detected SSL
+
+SSLs characterization with the following variables:
+- **WMO** : Unique WMO Argo float identifier
+- **cycle** : Argo float number cycle
+- **SG_min** : Salinity gradient minimum (surface saline lake base)
+- **depth_SG_min** : Surface saline lake depth
+- **TG_val** :  Temperature gradient value corresponding at depth_SG_min
+- **PDAG_val** : Potential density anomaly gradient value corresponding at depth_SG_min
+- **lon**, **lat**, **year**, **month**, **day** : Coordinates and datetime values
+
+For each detected SSL, the **Schmidt Stability Index (SSI)** is also computed as a measure of the energy required to homogenize the water column:
+
+$$SSI = g \int_{z_0}^{z_d} (z - z_g)(\rho(z) - \rho(z_g)) \, dz$$
+
+where :
+- z_d : Surface saline lake depth approximation ($$ = depth_SG_min + 5 $$)
+- z_0 : The first measured depth closest to the surface
+- $$ z_g = \frac{z_d - z_0}{2} $$
+- $$ SSI \geq 0 $$
+
 
 ## Data
 **Source:** [Argo profiling floats](https://argo.ucsd.edu/)
