@@ -3,10 +3,8 @@
 # Note: this script was written in 2024 and may not run with newer versions of argopy/numpy
 
 import argopy
-
 from argopy import DataFetcher, ArgoIndex
 from argopy.plot import scatter_map, scatter_plot
-
 import matplotlib.pyplot as plt
 import os
 import gsw
