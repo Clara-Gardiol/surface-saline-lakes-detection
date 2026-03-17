@@ -68,7 +68,7 @@ where :
 - $z_d$ : Surface saline lake depth approximation (depth_SG_min + 5)
 - $z_0$ : The first measured depth closest to the surface
 - $ z_g = \frac{z_d - z_0}{2} $
-- $ SSI \geq 0 $
+- SSI $\geq$ 0
 
 
 ## Data
