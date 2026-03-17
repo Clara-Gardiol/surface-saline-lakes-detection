@@ -17,10 +17,10 @@ Division for Marine and Environmental Research
 ## Table of Contents
 
 - [Objective](#objective)
-- [Methods](#methods)
 - [Data](#data)
 - [Tools](#tools)
 - [How to use](#how-to-use)
+- [Methods](#methods)
 - [Associated Publication](#associated-publication)
 - [Acknowledgements](#acknowledgements)
 - [Contact](#contact)
@@ -31,6 +31,27 @@ To document trends, variability, and spatial extent of "Surface Saline Lakes" (S
 SSLs are highly seasonal phenomena characterized by a near-surface salinity maximum overlying the pycnocline. They form in regions of low precipitation, high evaporation, and limited freshwater input, where weak winter wind mixing allows salt to accumulate near the surface.
 
 Originally documented exclusively in the Levantine Basin, SSLs were subsequently observed in the Adriatic Sea following an isolated occurrence in 2017.
+
+## Data
+**Source:** [Argo profiling floats](https://argo.ucsd.edu/)
+
+**Region:** Mediterranean Sea  
+
+**Period:** 2000 - 2024
+
+## Tools
+Python libraries: `argopy`, `pandas`, `xarray`, `numpy`, `matplotlib`, `cartopy`, `gsw`, `os`
+
+Python scripts were written in 2024 and may require older versions of the dependencies to run.
+
+## How to use
+Run the scripts in the following order:
+
+1. `save_argo_data.py` — Downloads and preprocesses Argo float data for the Mediterranean Sea (including Black sea data). Outputs `Argo_data.csv`.
+
+2. `SSLs_detection.py` — Detects surface saline lakes from the Argo data. Outputs `Save_variables.csv`, `Schmidt_stability_check.csv` and profile figures.
+
+3. `save_SSL_variables_Mediterranean_sea.py` — Filters out Black Sea data. Outputs `SSLs_variables_Mediterranean_sea.csv`.
 
 ## Methods 
 
@@ -56,8 +77,8 @@ SSLs characterization with the following variables:
 - **cycle** : Argo float number cycle
 - **SG_min** : Salinity gradient minimum (surface saline lake base)
 - **depth_SG_min** : Surface saline lake depth
-- **TG_val** :  Temperature gradient value corresponding at depth_SG_min
-- **PDAG_val** : Potential density anomaly gradient value corresponding at depth_SG_min
+- **TG_val** :  Temperature gradient value corresponding to depth_SG_min
+- **PDAG_val** : Potential density anomaly gradient value corresponding to depth_SG_min
 - **lon**, **lat**, **year**, **month**, **day** : Coordinates and datetime values
 
 For each detected SSL, the **Schmidt Stability Index (SSI)** is also computed as a measure of the energy required to homogenize the water column:
@@ -72,27 +93,6 @@ where :
 
 ### 3. Surface saline lakes detection and characterization ('save_SSL_variables_Mediterranean_sea.py')
 Extracting and collecting SSLs variables from Mediterranean sea (filter out Black sea data).
-
-## Data
-**Source:** [Argo profiling floats](https://argo.ucsd.edu/)
-
-**Region:** Mediterranean Sea  
-
-**Period:** 2000 - 2024
-
-## Tools
-Python libraries: `argopy`, `pandas`, `xarray`, `numpy`, `matplotlib`, `cartopy`, `gsw`, `os`
-
-Python scripts were written in 2024 and may require older versions of the dependencies to run.
-
-## How to use
-Run the scripts in the following order:
-
-1. `save_argo_data.py` — Downloads and preprocesses Argo float data for the Mediterranean Sea (including Black sea data). Outputs `Argo_data.csv`.
-
-2. `SSLs_detection.py` — Detects surface saline lakes from the Argo data. Outputs `Save_variables.csv`, `Schmidt_stability_check.csv` and profile figures.
-
-3. `save_SSL_variables_Mediterranean_sea.py` — Filters out Black Sea data. Outputs `SSLs_variables_Mediterranean_sea.csv`.
 
 ## Associated Publication
 This work contributed to the following publication:
