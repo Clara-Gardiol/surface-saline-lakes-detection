@@ -10,7 +10,6 @@ import os
 import gsw
 import xarray as xr
 import cartopy
-import geopandas
 
 argopy.clear_cache()
 directory = os.path.dirname(os.path.abspath(__file__))
