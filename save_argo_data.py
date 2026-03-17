@@ -39,4 +39,4 @@ df_profile = ds.argo.point2profile()
 df = ArgoSet.data.to_dataframe()
 
 df.to_csv(os.path.join(directory, 'Argo_data.csv')) # Save Argo csv file into the directory
-ArgoSet.data.to_netcdf(os.path.join(directory,'Argo_data.nc')) # Save netCDF file
+#ArgoSet.data.to_netcdf(os.path.join(directory,'Argo_data.nc')) # Save netCDF file
