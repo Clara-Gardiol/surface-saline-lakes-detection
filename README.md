@@ -37,7 +37,7 @@ Originally documented exclusively in the Levantine Basin, SSLs were subsequently
 
 **Region:** Mediterranean Sea  
 
-**Period:** 2000 - 2024
+**Period:** 2000 - July 2024
 
 ## Tools
 Python libraries: `argopy`, `pandas`, `xarray`, `numpy`, `matplotlib`, `cartopy`, `gsw`, `os`
