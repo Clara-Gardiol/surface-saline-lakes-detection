@@ -58,6 +58,15 @@ Python libraries: `argopy`, `pandas`, `xarray`, `numpy`, `matplotlib`, `cartopy`
 
 Python scripts were written in 2024 and may require older versions of the dependencies to run.
 
+## How to use
+Run the scripts in the following order:
+
+1. `save_argo_data.py` — Downloads and preprocesses Argo float data for the Mediterranean Sea (including Black sea data). Outputs `Argo_data.csv` and `Argo_data.nc`.
+
+2. `SSLs_detection.py` — Detects surface saline lakes from the Argo data. Outputs `Save_variables.csv` and profile figures.
+
+3. `save_SSL_variables_Mediterranean_sea.py` — Filters out Black Sea data. Outputs `SSLs_variables_Mediterranean_sea.csv`.
+
 ## Associated Publication
 This work contributed to the following publication:
 [Surface saline lakes in the Mediterranean Sea](https://os.copernicus.org/articles/21/1441/2025/os-21-1441-2025.html) — *Ocean Science*, 2025
