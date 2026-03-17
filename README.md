@@ -70,6 +70,8 @@ where :
 - $$z_g = \frac{z_d - z_0}{2}$$
 - SSI $\geq$ 0
 
+### 3. Surface saline lakes detection and characterization ('save_SSL_variables_Mediterranean_sea.py')
+Extracting and collecting SSLs variables from Mediterranean sea (filter out Black sea data).
 
 ## Data
 **Source:** [Argo profiling floats](https://argo.ucsd.edu/)
