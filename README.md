@@ -62,13 +62,13 @@ SSLs characterization with the following variables:
 
 For each detected SSL, the **Schmidt Stability Index (SSI)** is also computed as a measure of the energy required to homogenize the water column:
 
-$$SSI = g \int_{z_0}^{z_d} (z - z_g)(\rho(z) - \rho(z_g)) \, dz$$
+$$SSI = g \sum_{z_0}^{z_d} (z - z_g)(\rho(z) - \rho(z_g)) \, dz$$
 
 where :
-- z_d : Surface saline lake depth approximation ($$ = depth_SG_min + 5 $$)
-- z_0 : The first measured depth closest to the surface
-- $$ z_g = \frac{z_d - z_0}{2} $$
-- $$ SSI \geq 0 $$
+- $z_d$ : Surface saline lake depth approximation (depth_SG_min + 5)
+- $z_0$ : The first measured depth closest to the surface
+- $ z_g = \frac{z_d - z_0}{2} $
+- $ SSI \geq 0 $
 
 
 ## Data
