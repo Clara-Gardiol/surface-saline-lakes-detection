@@ -6,7 +6,7 @@
 import argopy
 
 from argopy import DataFetcher, ArgoIndex
-from argopy.plot import scatter_map, scatter_plot  # This is a function to easily make maps 
+from argopy.plot import scatter_map, scatter_plot
 
 import matplotlib.pyplot as plt
 import os
@@ -15,7 +15,7 @@ import xarray as xr
 import cartopy
 import geopandas
 
-argopy.clear_cache()  # something to debug in the next version of argopy
+argopy.clear_cache()
 directory = os.path.dirname(os.path.abspath(__file__))
 
 # For the whole Mediterranean sea dataset :
