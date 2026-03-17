@@ -20,6 +20,7 @@ Division for Marine and Environmental Research
 - [Methods](#methods)
 - [Data](#data)
 - [Tools](#tools)
+- [How to use](#how-to-use)
 - [Associated Publication](#associated-publication)
 - [Acknowledgements](#acknowledgements)
 - [Contact](#contact)
@@ -61,9 +62,9 @@ Python scripts were written in 2024 and may require older versions of the depend
 ## How to use
 Run the scripts in the following order:
 
-1. `save_argo_data.py` — Downloads and preprocesses Argo float data for the Mediterranean Sea (including Black sea data). Outputs `Argo_data.csv` and `Argo_data.nc`.
+1. `save_argo_data.py` — Downloads and preprocesses Argo float data for the Mediterranean Sea (including Black sea data). Outputs `Argo_data.csv`.
 
-2. `SSLs_detection.py` — Detects surface saline lakes from the Argo data. Outputs `Save_variables.csv` and profile figures.
+2. `SSLs_detection.py` — Detects surface saline lakes from the Argo data. Outputs `Save_variables.csv`, `Schmidt_stability_check.csv` and profile figures.
 
 3. `save_SSL_variables_Mediterranean_sea.py` — Filters out Black Sea data. Outputs `SSLs_variables_Mediterranean_sea.csv`.
 
