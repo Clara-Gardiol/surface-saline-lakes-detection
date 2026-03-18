@@ -44,7 +44,7 @@ Originally documented exclusively in the Levantine Basin, SSLs were subsequently
 **Period:** 2000 - July 2024
 
 ## Tools
-Python libraries: `argopy`, `pandas`, `xarray`, `numpy`, `matplotlib`, `cartopy`, `gsw`, `os`
+Python libraries: `argopy`, `pandas`, `xarray`, `numpy`, `matplotlib`, `cartopy`, `gsw`
 
 Python scripts were written in 2024 and may require older versions of the dependencies to run.
 
