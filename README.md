@@ -77,8 +77,8 @@ A profile is flagged as a SSL if the following 3 conditions are met:
 - **Condition n°3** : Surface salinity must be higher than salinity at the base of the detected SSL
 
 <p float="left">
-  <img src="SSL_example_Adriatic.png" width="45%" />
-  <img src="SSL_example_Levantine.png" width="45%" style="height: auto;" />
+  <img src="SSL_example_Adriatic.png" width="49%" />
+  <img src="SSL_example_Levantine.png" width="49%" style="height: auto;" />
 </p>
 
 SSLs characterization with the following variables:
