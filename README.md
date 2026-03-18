@@ -76,6 +76,11 @@ A profile is flagged as a SSL if the following 3 conditions are met:
 - **Condition n°2** : Salinity gradients above must not exceed 0.02 ppt/m
 - **Condition n°3** : Surface salinity must be higher than salinity at the base of the detected SSL
 
+<p float="left">
+  <img src="SSL_example_Adriatic.png" width="45%" />
+  <img src="SSL_example_Levantine.png" width="45%" style="height: auto;" />
+</p>
+
 SSLs characterization with the following variables:
 - **WMO** : Unique WMO Argo float identifier
 - **cycle** : Argo float number cycle
@@ -97,11 +102,6 @@ where :
 
 ### 3. Surface saline lakes detection and characterization ('save_SSL_variables_Mediterranean_sea.py')
 Extracting and collecting SSLs variables from Mediterranean sea (filter out Black sea data).
-
-<p float="left">
-  <img src="SSL_example_Adriatic.png" width="45%" />
-  <img src="SSL_example_Levantine.png" width="45%" />
-</p>
 
 ## Associated Publication
 This work contributed to the following publication:
