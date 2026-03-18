@@ -98,6 +98,11 @@ where :
 ### 3. Surface saline lakes detection and characterization ('save_SSL_variables_Mediterranean_sea.py')
 Extracting and collecting SSLs variables from Mediterranean sea (filter out Black sea data).
 
+<p float="left">
+  <img src="SSL_example_Adriatic.png" width="48%" />
+  <img src="SSL_example_Levantine.png" width="48%" />
+</p>
+
 ## Associated Publication
 This work contributed to the following publication:
 [Surface saline lakes in the Mediterranean Sea](https://os.copernicus.org/articles/21/1441/2025/os-21-1441-2025.html) — *Ocean Science*, 2025
