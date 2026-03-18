@@ -32,6 +32,8 @@ SSLs are highly seasonal phenomena characterized by a near-surface salinity maxi
 
 Originally documented exclusively in the Levantine Basin, SSLs were subsequently observed in the Adriatic Sea following an isolated occurrence in 2017.
 
+![Saline lake locations 2022](SSLs_2022.png)
+
 ## Data
 **Source:** [Argo profiling floats](https://argo.ucsd.edu/)
 
