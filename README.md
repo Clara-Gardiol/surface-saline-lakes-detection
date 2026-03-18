@@ -99,8 +99,8 @@ where :
 Extracting and collecting SSLs variables from Mediterranean sea (filter out Black sea data).
 
 <p float="left">
-  <img src="SSL_example_Adriatic.png" width="48%" />
-  <img src="SSL_example_Levantine.png" width="48%" />
+  <img src="SSL_example_Adriatic.png" height="400px" />
+  <img src="SSL_example_Levantine" height="400px" />
 </p>
 
 ## Associated Publication
