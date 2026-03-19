@@ -4,18 +4,11 @@
 ![Status](https://img.shields.io/badge/Status-Completed-green)
 ![Type](https://img.shields.io/badge/Type-Research%20Internship-orange)
 
-“Surface saline lakes” detection in the Mediterranean Sea using Argo float data
-
-## Context
-
-**Research internship** at Ruđer Bošković Institute in Split, Croatia (April - August 2024)
-
-Division for Marine and Environmental Research
-
-**Supervisors:** Elena Terzić, Ivica Vilibić
+“Surface saline lakes” detection in the Mediterranean Sea using Argo float data.
 
 ## Table of Contents
 
+- [Context](#context)
 - [Objective](#objective)
 - [Data](#data)
 - [Tools](#tools)
@@ -24,6 +17,14 @@ Division for Marine and Environmental Research
 - [Associated Publication](#associated-publication)
 - [Acknowledgements](#acknowledgements)
 - [Contact](#contact)
+
+## Context
+
+**Research internship** at Ruđer Bošković Institute in Split, Croatia (April - August 2024)
+
+Division for Marine and Environmental Research
+
+**Supervisors:** Elena Terzić, Ivica Vilibić
 
 ## Objective
 To document trends, variability, and spatial extent of "Surface Saline Lakes" (SSLs) using Argo profiling float data in the Mediterranean Sea.
